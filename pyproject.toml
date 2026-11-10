@@ -6,8 +6,10 @@ readme = "README.md"
 authors = [
     { name = "Kelvin", email = "me@3underscoreN.work" }
 ]
-requires-python = ">=3.9"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.128.8",
+]
 
 [project.scripts]
 fyp-embed = "fyp_embed:main"
